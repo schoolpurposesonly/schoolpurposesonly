@@ -1,0 +1,86 @@
+/* Background image */
+body {
+    font-family: "Arial", sans-serif; /* Default font */
+    margin: 0;
+    padding: 0;
+    background-image: url('backG.jpg'); /* Replace 'background.jpg' with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #ffffffa1; /* Set text color to white for better visibility on the image */
+}
+
+/* The rest of your styles... */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0); /* Add a semi-transparent white background for content readability */
+}
+
+h1 {
+    text-align: center;
+    color: saddlebrown;
+    font-family: "Helvetica Neue", sans-serif; /* Change the font for the main title */
+}
+
+h2 {
+    color: saddlebrown;
+    font-family: "Times New Roman", serif; /* Change the font for section titles */
+}
+
+/* Style for the khaki resume section */
+.resume-section.burlywood {
+    background-color: burlywood(240, 140, 227);
+    border-radius: 5px;
+}
+
+/* Style for the rectangular profile photo */
+.profile-photo {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px; /* Adjust the maximum width to your desired size */
+    width: 100%; /* Make sure the photo fills the container width */
+    height: auto; /* Maintain the aspect ratio of the photo */
+    border: 3px solid #000000;
+    border-radius: 10px; /* Adjust the border-radius for rounded corners if desired */
+}
+
+/* Style for the khaki resume section */
+.resume-section.burlywood {
+    background-color: burlywood;
+    border-radius: 5px;
+}
+
+/* Style for the olive resume section */
+.resume-section.burlywood {
+    background-color: burlywood;
+    color: rgb(0, 0, 0); /* Change text color for better visibility */
+    border-radius: 5px;
+}
+
+.contact-info {
+    margin-left: 20px;
+}
+
+.school {
+    margin-left: 20px;
+}
+
+.education {
+    margin-left: 60px;
+}
+
+.experience {
+    margin-left: 20px;
+}
+
+.more-info {
+    margin-left: 20px;
+}
+
+.certify {
+    font-style: italic;
+    margin-left: 20px;
+}
